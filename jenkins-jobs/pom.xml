@@ -4,7 +4,11 @@
 
     <groupId>eu.happycoders.jenkins-tutorial-demo</groupId>
     <artifactId>jenkins-jobs</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>jenkins-maven</module>
+    </modules>
 
     <repositories>
         <repository>
