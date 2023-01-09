@@ -6,6 +6,5 @@ mavenJob('jenkins tutorial demo - Simple DSL job'){
     parameters {
         gitParam('Branch')
         description'The git branch to checkout'
-        defaultValue 'origin/master'
     }
 }
